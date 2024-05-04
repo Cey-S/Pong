@@ -1,0 +1,61 @@
+:root{
+	--ImperialRed: #fb3640;
+	--Black: #070707;
+	--Snow: #fcf7f8;
+	--Aero: #05b2dc;
+}
+
+body{
+	margin: 0;
+}
+
+#Game{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: var(--ImperialRed);
+}
+
+#PlayArea{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	background-color: var(--Black);
+}
+
+#ScoreContainer{
+	position: absolute;
+	width: 100%;
+	height: 5%;
+	top: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--Snow);
+}
+
+p{
+	width: 150px;
+	height: 18px;
+	margin: 0;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: bold;	
+}
+
+.Paddle{
+	position: absolute;
+	background-color: var(--Snow);
+	height: 150px;
+	width: 30px;
+}
+
+#Ball{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: var(--ImperialRed);
+	border-radius: 50%;
+}
