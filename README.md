@@ -6,4 +6,8 @@
 - "Arrow Up" and "Arrow Down" keys move the right paddle.
 - "Spacebar" starts the game. 
 
-🚀 You can access the game at https://cey-s.github.io/Pong/
+🚀 You can play the game at https://cey-s.github.io/Pong/
+
+**Preview:**
+
+<img alt="Recording from the website" src="PongDemo.gif">
